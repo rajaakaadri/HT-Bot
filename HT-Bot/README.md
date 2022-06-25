@@ -1,3 +1,0 @@
-# HT-Bot
-For fun discord bot
-Updating read me for first commit...
