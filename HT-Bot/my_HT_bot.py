@@ -2,7 +2,7 @@ import discord
 import sys
 sys.path.append('/Users/raja/Code')
 try:
-    from my_token import bot_token
+    from my_token import bot_token, riot_token
 except:
     print('Failed...')
 import requests
@@ -16,7 +16,7 @@ client = discord.Client()
 discord_to_game_id = {'raja#1779': 'Canoedo',
     'Kupopo#2456': 'Canoedle'
 } 
-riot_key = 'RGAPI-0bec2a96-877a-4f98-8db6-208c702c5a7b'
+riot_key = riot_token
 
 @client.event
 async def on_ready():
